@@ -1,0 +1,129 @@
+body {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  background-color: rgb(89, 158, 255);
+  color: white;
+}
+
+h1 {
+  font-family: "Dosis", sans-serif;
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 0 0;
+  font-family: "Varela Round", sans-serif;
+  font-weight: 300;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+/*thanh điều hướng*/
+
+.thanh-dieu-huong {
+  padding: 0 0 0 0;
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.thanh-dieu-huong > li {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0 0 0 0;
+}
+
+.text {
+  font-family: "Comfortaa";
+  text-overflow: ellipsis;
+  font-weight: 100;
+  display: block;
+  word-wrap: break-word;
+}
+
+.muc-con {
+  display: block;
+  text-overflow: clip;
+}
+/*----------------*/
+
+main {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+img {
+  filter: invert(100%);
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.thong-tin {
+  display: flex;
+  font-size: 2.5ch;
+  margin-bottom: 20%;
+  padding-left: 15%;
+}
+
+.than {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-wrap: nowrap;
+}
+
+.vien {
+  border-style: solid;
+  border-collapse: collapse;
+  border-width: 2px;
+}
+
+main.vien {
+  border-radius: 2%;
+}
+
+.trai,
+.phai {
+  width: 35%;
+}
+
+.logo {
+  display: inline;
+}
+
+.logo.big {
+  margin-right: 10px;
+  float: left;
+}
+
+.logo.mini {
+  padding-left: 5px;
+}
+
+.logo.mini > img {
+  width: 20%;
+}
+
+.logo.med {
+  width: 5%;
+}
+
+.chua-icon-ngang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.chua-icon-ngang > img {
+  margin-left: 10px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
